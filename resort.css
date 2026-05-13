@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+	 font-family: "Spectral", serif;
+	 font-size: 17px;
+	letter-spacing: 2px;
+	background-color: #F5F0E6;
+}
+.logo {
+	width: 100px;
+	height: auto;
+}
+
+.main-content  {
+	justify-content: center;
+	display: flex;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+	margin-right: 40px;
+	font-size: 15px;
+}
+
+.nav {
+	text-align: center;
+	font-size: 20px;
+
+}
+
+
+.banner-img {
+	  margin: 30px 20px;       
+    padding: 0 25px;
+	}
+
+.room {
+    text-align: center;
+    margin: 90px 0 60px 0;
+}
+.sub-title {
+    font-size: 20px;
+    color: #555;
+    margin: 0;
+}
+.main-title {
+    font-size: 25px;
+    margin-top: 15px;
+    color: #222;
+}
+
+.main-room {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.room-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;           
+  
+}
+
+.room-card {
+  width: 45%;         
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;  
+}
+
+.room-card img {
+ width: 100%;
+  height: auto;       
+  border-radius: 50px; 
+  border: none;       
+  box-shadow: none;   
+}
+
+.room-card h3 {
+  margin: 10px 0 5px 0;
+  font-size: 22px;      
+}
+
+.room-card p {
+  font-size: 15px;      
+  
+  margin-bottom: 10px;
+}
+
+.booking {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.book-btn {
+	text-decoration: none;
+  padding: 10px 20px;
+  background-color: #e1d9cf;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+}
+
+.book-btn:hover {
+  background-color: #d1c5b0;
+}
+
+
+
+.services {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.main-service {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+ margin-bottom: 10px;
+}
+
+.service-card {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.service-card img {
+  width: 100%;
+  height: 100%;
+  
+  
+}
+
+.service-card:hover img {
+  transform: scale(1.05); 
+}
+
+.service-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+ 
+}
+.feedback {
+    text-align: center;
+    padding: 50px 20px;
+  background-color: #F5F0E6;
+}
+
+.main-feedback {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feedback-card {
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.feedback-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.feedback-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.feedback-card p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+}
+ion-icon {
+  font-size: 32px;
+  padding: 0px 20px;
+}
+
+ .location {
+	margin-left: 5%;
+}
+
+
+
+
+footer {
+	display: flex;
+    align-items: center;   
+	padding: 50px 0px;
+	background-color: white;
+	
+}
+
+
+.anh-logo {
+	margin: 5%;
+}
+
+.dia-chi p, .thong-tin p  {
+    display: inline;
+}
+
+.thong-tin {
+	margin-left: 10%;
+}
+
+.icon a {
+	text-decoration: none;
+}
+.icon .fb {
+	color: blue;
+}
+
+.icon .ig {
+	color: #E1306C;
+}
+.icon .yt {
+	color: red;
+}
+
+.icon .tiktok {
+	color: black;
+}
+

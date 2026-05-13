@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+body {
+	 font-family: "Spectral", serif;
+	 font-size: 17px;
+	letter-spacing: 2px;
+	background-color: #F5F0E6;
+}
+.logo {
+	width: 100px;
+	height: auto;
+}
+.main-content  {
+	justify-content: center;
+	display: flex;
+}
+.nav a {
+	text-decoration: none;
+	color: black;
+	margin-right: 40px;
+	font-size: 15px;
+
+}
+.nav {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	font-size: 25px;
+}
+
+.giai-dap p {
+	max-width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.text {
+	display: flex;
+	margin: 5% 0%;
+}
+
+.text-left {
+	margin-left: 2%;
+}
+
+.text-right {
+	margin-left: 4%;
+}
+
+.contact {
+    width: 90%;
+    margin: 50px auto;
+}
+
+.contact-container h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.main-contact {
+    width: 100%;
+}
+
+.contact-left {
+    width: 60%;
+    float: left; 
+    margin-right: 2%;
+
+}
+
+.contact-left .map {
+    width: 80%;
+    border: 3px solid ;
+}
+
+.contact-right {
+    width: 36%;
+    float: right;
+    background-color: #E8DDD1;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+	
+}
+
+.contact-right h3 {
+    margin-top: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-right label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact-right input,
+.contact-right textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.contact-right textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-right button {
+    width: 100%;
+    padding: 10px;
+    background-color: #c9a97c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact-right button:hover {
+    background-color: #b89263;
+}
+.contact p {
+	font-size: 25px;
+}
+
+
+
+
+ion-icon {
+  font-size: 32px;
+  padding: 0px 20px;
+}
+
+ .location {
+	margin-left: 5%;
+}
+
+
+
+footer {
+	clear: both;
+	display: flex;
+    align-items: center;   
+	padding: 50px 0px;
+	background-color: white;
+	margin-top:100px;
+	
+}
+
+
+.anh-logo {
+	margin: 5%;
+}
+
+.dia-chi p, .thong-tin p  {
+    display: inline;
+}
+
+.thong-tin {
+	margin-left: 10%;
+}
+
+.icon a {
+	text-decoration: none;
+}
+.icon .fb {
+	color: blue;
+}
+
+.icon .ig {
+	color: #E1306C;
+}
+.icon .yt {
+	color: red;
+}
+
+.icon .tiktok {
+	color: black;
+}
+
+
+
+
